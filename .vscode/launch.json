@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sortieren1",
+            "request": "launch",
+            "mainClass": "Sortieren1",
+            "projectName": "Sortierung_9c2a2ddd"
+        }
+    ]
+}
