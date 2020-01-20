@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Sortieren2",
+            "request": "launch",
+            "mainClass": "Sortieren2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Sortieren1",
             "request": "launch",
             "mainClass": "Sortieren1",
