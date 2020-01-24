@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Sortieren2 {
     public static void ausgabe(int[] liste) {
         System.out.println("{");
@@ -28,22 +30,18 @@ public class Sortieren2 {
     }
 
     public static int[] sortieren(int[] liste) {
-        int klein;
-        for(int x=0;x<liste.length;x++) {
-            for(int y=0;y<x;y++) {
-                if(liste[x]<liste[y]) {
-                    klein = liste[x];
-                }
-            }
-        }
+        java.util.Arrays.sort(liste);
         return liste;
     }
 
     public static void main(String[] args) {
         int[] zliste = zufallsListe(11);
         int[] neueliste = prüfung(zliste);
+        int[] Sortiert = sortieren(neueliste);
         
-        ausgabe(zliste);
+        //ausgabe(zliste);
         ausgabe(neueliste);
+        ausgabe(Sortiert);
+
     }
 }
