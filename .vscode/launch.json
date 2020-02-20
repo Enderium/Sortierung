@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Zeitmessung",
+            "request": "launch",
+            "mainClass": "Zeitmessung"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sortieren3",
+            "request": "launch",
+            "mainClass": "Sortieren3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Sortieren2",
             "request": "launch",
             "mainClass": "Sortieren2"
