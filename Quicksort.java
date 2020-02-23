@@ -14,7 +14,7 @@ public class Quicksort {
     public static int teile(int links, int rechts, int[] liste) {
         int i = links;
         int j = rechts-1;
-        int pivot = liste[rechts]
+        int pivot = liste[rechts];
         while (i < rechts && liste[i] < pivot) {
             i = i + 1;
         }
@@ -30,6 +30,6 @@ public class Quicksort {
     public static void main(String[] args) {
         int[] liste = Sortiermethoden.zufallsliste;
         quicksort(0; liste.length-1; liste);
-        Sortiermethoden.ausgabe(liste)
+        Sortiermethoden.ausgabe(liste);
     }
 }
