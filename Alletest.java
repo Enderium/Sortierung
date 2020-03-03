@@ -11,6 +11,9 @@ public class Alletest {
             long start1= System.currentTimeMillis();
             liste2 = Bubblesort.Sortieren(liste2);
             long ende1 = System.currentTimeMillis();
+            //long start2 = System.currentTimeMillis();
+            //Quicksort.sortieren(liste3);
+            //long ende2 = System.currentTimeMillis();
             System.out.println(n+";"+(ende0-start0)+";"+(ende1-start1));
         }
 

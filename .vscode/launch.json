@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Quicksort",
+            "request": "launch",
+            "mainClass": "Quicksort",
+            "projectName": "Sortierung_9c2a2ddd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Zeitmessung",
             "request": "launch",
             "mainClass": "Zeitmessung"

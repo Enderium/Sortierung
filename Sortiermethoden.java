@@ -18,7 +18,7 @@ public class Sortiermethoden {
         public static int[] zufallsListe(int n) {
             int[] zliste = new int[n];
             for(int x=0;x<n;x++) {
-                zliste[x] = (int) Math.floor(100000*Math.random());
+                zliste[x] = (int) Math.floor(10000*Math.random());
             }
             return zliste;
         }
