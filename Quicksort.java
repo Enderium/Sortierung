@@ -17,7 +17,7 @@ public class Quicksort {
         int i = links;
         int j = rechts;
         int pivot = liste[rechts];
-        //while(i < j) {
+        while(i < j) {
             while (i < rechts && liste[i] < pivot) {
                 i = i + 1;
             }
